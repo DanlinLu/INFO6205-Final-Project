@@ -1,4 +1,4 @@
-package edu.neu.coe.info6206.finalProject;
+package edu.neu.coe.info6205.finalProject;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
