@@ -34,6 +34,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/ludanlin/Downloads/pinyin4j-2/lib/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Users/ludanlin/Desktop/INFO6205-Final-Project/pinyin4j-2/lib/pinyin4j-2.5.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
