@@ -17,7 +17,7 @@ public class loadFile {
                     BufferedReader bufferedReader = new BufferedReader(read);
                     String lineTxt = null;
                     while((lineTxt = bufferedReader.readLine()) != null){
-                        //System.out.println(lineTxt);
+                        System.out.print(lineTxt+": ");
                         String pinYin = convertToPinyin.getAllPinyin(lineTxt);
                         System.out.println(pinYin);
                     }

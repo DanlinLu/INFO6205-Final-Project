@@ -96,12 +96,8 @@ public class convertToPinyin {
     }
 
     public static void main(String[] args) {
-        String pinYin = getAllPinyin("鲁丹霖");
-        String pinYin2 = getAllPinyin("杨雯琪");
-        String pinYin3 = getAllPinyin("张坤辉");
-        System.out.println("鲁丹霖："+pinYin);
-        System.out.println("杨雯琪："+pinYin2);
-        System.out.println("张坤辉："+pinYin3);
+        String pinYin = getAllPinyin("鲁丹霖\r杨雯琪\r张坤辉");
+        System.out.println(pinYin);
 
     }
 }
