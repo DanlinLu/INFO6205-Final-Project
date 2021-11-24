@@ -17,13 +17,13 @@ public class MSDResult {
 		Supplier<String[]> supplier = () -> arr;
 		Consumer<String[]> consumer = (f) -> {MSDStringSort.sort(arr);};
 		Benchmark_Timer<String[]> benchMark = new Benchmark_Timer<String[]>("result",consumer);
-		double time = benchMark.runFromSupplier(supplier, 50);
+		double time = benchMark.runFromSupplier(supplier, 10);
 		return time;
 }
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String[] filePathList = {"./shuffledChinese2.txt","./shuffledChinese3.txt","./shuffledChinese4.txt"};
+		String[] filePathList = {"./shuffledChinese3.txt"};
 		for (String j : filePathList) {
 			HashMap<String,String> content = readTxt(j);
 			Set<String> keycontent = content.keySet();
