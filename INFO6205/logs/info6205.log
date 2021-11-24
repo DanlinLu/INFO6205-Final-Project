@@ -19252,3 +19252,13 @@
 2021-11-20 02:34:35 INFO  SorterBenchmark - run: sort 4 elements using SorterBenchmark on class java.lang.String from 4 total elements and 100 runs using sorter: Insertion sort
 2021-11-20 02:34:35 INFO  Benchmark_Timer - Begin run: Helper for Insertion sort with 0 elements with 100 runs
 2021-11-20 02:34:35 INFO  TimeLogger - test .00
+2021-11-21 18:16:47 DEBUG Config - Config.get(helper, instrument) = true
+2021-11-21 18:16:47 DEBUG Config - Config.get(helper, seed) = 0
+2021-11-21 18:16:47 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-11-21 18:16:47 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-11-21 18:16:47 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-11-21 18:16:47 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-11-21 18:16:47 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-11-21 18:16:47 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-11-21 18:16:47 DEBUG Config - Config.get(helper, cutoff) = 
+2021-11-24 16:28:02 DEBUG Config - Config.get(helper, instrument) = false

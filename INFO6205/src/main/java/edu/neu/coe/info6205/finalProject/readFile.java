@@ -12,6 +12,7 @@ import java.io.FileInputStream;
 import java.io.InputStream;  
 import java.io.InputStreamReader;  
 import java.util.ArrayList;
+import java.util.HashMap;
 /**
  *
  * @author 60444
@@ -21,7 +22,7 @@ public class readFile {
         String filePath = "D:/temp/shuffledChinese.txt";  
 //      String filePath = "D:/article333.txt";    
 //      String filePath = "D:/article111.txt";    
-        ArrayList<String> content = readTxt(filePath);  
+        HashMap<String,String> content = readTxt(filePath);  
         System.out.println(content);  
     }  
       
@@ -33,8 +34,8 @@ public class readFile {
      */  
     @SuppressWarnings("unused")  
     //used for whose code is "UTF-8"
-    public static ArrayList<String> readTxt(String path){  
-        ArrayList<String> list = new ArrayList<>();
+    public static HashMap<String,String> readTxt(String path){  
+        HashMap<String,String> map = new HashMap<>();
         //StringBuilder content = new StringBuilder("");  
         try {  
             //String code = resolveCode(path);  
@@ -50,13 +51,13 @@ public class readFile {
             convertToPinyin toPinYin = new convertToPinyin();
             while (null != (str = br.readLine())) {  
                 //content.append(str);  
-                list.add(toPinYin.getAllPinyin(str));
+                map.put(toPinYin.getAllPinyin(str), str);
             }  
             br.close();  
         } catch (Exception e) {  
             e.printStackTrace();  
             System.err.println("读取文件:" + path + "失败!");  
         }  
-        return list;
+        return map;
     }  
 }
