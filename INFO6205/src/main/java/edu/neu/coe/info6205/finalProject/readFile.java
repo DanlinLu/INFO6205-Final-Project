@@ -19,7 +19,7 @@ import java.util.HashMap;
  */
 public class readFile {
     public static void main(String[] args) throws Exception {  
-        String filePath = "D:/temp/shuffledChinese.txt";  
+        String filePath = "./shuffledChinese4.txt";
 //      String filePath = "D:/article333.txt";    
 //      String filePath = "D:/article111.txt";    
         HashMap<String,String> content = readTxt(filePath);  
