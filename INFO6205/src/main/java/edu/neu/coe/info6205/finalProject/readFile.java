@@ -10,8 +10,7 @@ import java.io.BufferedReader;
 import java.io.File;  
 import java.io.FileInputStream;  
 import java.io.InputStream;  
-import java.io.InputStreamReader;  
-import java.util.ArrayList;
+import java.io.InputStreamReader;
 import java.util.HashMap;
 /**
  *
@@ -51,7 +50,7 @@ public class readFile {
             convertToPinyin toPinYin = new convertToPinyin();
             while (null != (str = br.readLine())) {  
                 //content.append(str);  
-                map.put(toPinYin.getAllPinyin(str), str);
+                map.put(getAllPinyin(str), str);
             }  
             br.close();  
         } catch (Exception e) {  

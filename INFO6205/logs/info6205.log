@@ -19262,3 +19262,12 @@
 2021-11-21 18:16:47 DEBUG Config - Config.get(instrumenting, hits) = true
 2021-11-21 18:16:47 DEBUG Config - Config.get(helper, cutoff) = 
 2021-11-24 16:28:02 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-24 17:19:13 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-24 17:19:13 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-24 17:19:13 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-24 17:19:59 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-24 17:19:59 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-24 17:19:59 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-24 17:20:27 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-24 17:20:27 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-24 17:20:27 INFO  Benchmark_Timer - Begin run: result with 50 runs

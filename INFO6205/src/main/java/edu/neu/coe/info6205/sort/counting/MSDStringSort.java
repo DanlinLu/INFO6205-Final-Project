@@ -15,7 +15,7 @@ public class MSDStringSort {
     public static void sort(String[] a) {
         int n = a.length;
         aux = new String[n];
-        sort(a, 0, n, 0);
+        sort(a, 0, n-1, 0);
     }
 
     /**
@@ -28,7 +28,24 @@ public class MSDStringSort {
      * @param d the number of characters in each String to be skipped.
      */
     private static void sort(String[] a, int lo, int hi, int d) {
-        if (hi < lo + cutoff) InsertionSortMSD.sort(a, lo, hi, d);
+    	
+    	if (hi <= lo + cutoff) 
+    	{InsertionSortMSD.sort(a, lo, hi, d); return;}
+    	int[] count = new int[radix + 2];        // Compute frequency counts.
+    	for (int i = lo; i <= hi; i++)
+    		count[charAt(a[i], d) + 2]++;
+    	for (int r = 0; r < radix + 1; r++)      // Transform counts to indices.
+    		count[r + 1] += count[r];
+    	for (int i = lo; i <= hi; i++)     // Distribute.
+    		aux[count[charAt(a[i], d) + 1]++] = a[i];
+            // Copy back.
+    	for (int i = lo; i <= hi; i++)
+    		a[i] = aux[i - lo];
+    	for (int r = 0; r < radix; r++)
+    		sort(a, lo + count[r], lo + count[r+1] - 1, d+1);
+    	
+    	/*
+    	if (hi < lo + cutoff) InsertionSortMSD.sort(a, lo, hi, d);
         else {
             int[] count = new int[radix + 2];        // Compute frequency counts.
             for (int i = lo; i < hi; i++)
@@ -42,6 +59,10 @@ public class MSDStringSort {
             // Recursively sort for each character value.
             // TO BE IMPLEMENTED
         }
+    	*/
+        
+             
+        
     }
 
     private static int charAt(String s, int d) {
@@ -49,7 +70,7 @@ public class MSDStringSort {
         else return -1;
     }
 
-    private static final int radix = 256;
+    private static final int radix = 65536;
     private static final int cutoff = 15;
     private static String[] aux;       // auxiliary array for distribution
 }

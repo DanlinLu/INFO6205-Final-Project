@@ -2,7 +2,31 @@ package edu.neu.coe.info6205.sort.counting;
 
 public class LSDStringSort {
 
-    private final int ASCII_RANGE = 256;
+	/*
+    public static void sort(String[] a, int w) {
+    	
+    	int N = a.length;
+    	int R = 65536;
+    	String[] aux = new String[N];
+    	
+    	for (int d = w-1; d >= 0; d--) {
+    		
+    		int[] count = new int[R+1];
+    		for (int i = 0; i < N; i++)
+    			count[a[i].charAt(d)+1]++;
+    		for (int r = 0; r < N; r++)
+    			count[r+1] += count[r];
+    		for (int i = 0; i < N; i++)
+    			aux[count[a[i].charAt(d)]++] = a[i];
+    		for (int i = 0; i < N; i++)
+    			a[i] = aux[i];
+    	}
+    }
+    */
+    
+    
+     private final int ASCII_RANGE = 65536;
+
 
     /**
      * findMaxLength method returns maximum length of all available strings in an array
@@ -10,6 +34,7 @@ public class LSDStringSort {
      * @param strArr It contains an array of String from which maximum length needs to be found
      * @return int Returns maximum length value
      */
+    
     private int findMaxLength(String[] strArr) {
         int maxLength = strArr[0].length();
         for (String str : strArr)
@@ -25,6 +50,7 @@ public class LSDStringSort {
      *                     doesn't exist then ASCII value of null i.e. 0 is returned
      * @return int Returns ASCII value
      */
+    
     private int charAsciiVal(String str, int charPosition) {
         if (charPosition >= str.length()) {
             return 0;
@@ -40,6 +66,7 @@ public class LSDStringSort {
      * @param from         This is the starting index from which sorting operation will begin
      * @param to           This is the ending index up until which sorting operation will be continued
      */
+    
     private void charSort(String[] strArr, int charPosition, int from, int to) {
         int[] count = new int[ASCII_RANGE + 2];
         String[] result = new String[strArr.length];
@@ -70,6 +97,7 @@ public class LSDStringSort {
      * @param from   This is the starting index from which sorting operation will begin
      * @param to     This is the ending index up until which sorting operation will be continued
      */
+    
     public void sort(String[] strArr, int from, int to) {
         int maxLength = findMaxLength(strArr);
         for (int i = maxLength - 1; i >= 0; i--)
@@ -81,7 +109,10 @@ public class LSDStringSort {
      *
      * @param strArr It contains an array of String on which LSD sort needs to be performed
      */
+    
     public void sort(String[] strArr) {
         sort(strArr, 0, strArr.length - 1);
     }
+    
+    
 }

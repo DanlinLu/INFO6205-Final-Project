@@ -16,20 +16,31 @@ import java.util.stream.Collectors;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
+
 public class MSDStringSortTest {
 
-    String[] input = "she sells seashells by the seashore the shells she sells are surely seashells".split(" ");
+	String[] input = "she sells seashells by the seashore the shells she sells are surely seashells".split(" ");
     String[] expected = "are by seashells seashells seashore sells sells she she shells surely the the".split(" ");
-
+    
+    String[] input_large = "she sells seashells by the zoo seashore the shells she sells are surely seashells best better a".split(" ");
+    String[] expected_large = "a are best better by seashells seashells seashore sells sells she she shells surely the the zoo".split(" ");
+    
     @Test
     public void sort() {
         MSDStringSort.sort(input);
         System.out.println(Arrays.toString(input));
         assertArrayEquals(expected, input);
     }
+    
+    @Test
+    public void sort1() {
+        MSDStringSort.sort(input_large);
+        System.out.println(Arrays.toString(input_large));
+        assertArrayEquals(expected_large, input_large);
+    }
 
     @Test
-    public void sort1() throws IOException {
+    public void sort2() throws IOException {
         int n = 1000;
         final Helper<String> helper = new BaseHelper<>("test", n, 1L, Config.load(MSDStringSortTest.class));
         helper.init(n);
