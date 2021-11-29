@@ -1,17 +1,17 @@
 /*
   (c) Copyright 2018, 2019 Phasmid Software
  */
-package edu.neu.coe.huskySort.sort.huskySort;
+package edu.neu.coe.info6205.huskySort.sort.huskySort;
 
-import edu.neu.coe.huskySort.sort.BaseHelper;
-import edu.neu.coe.huskySort.sort.InstrumentedHelper;
-import edu.neu.coe.huskySort.sort.SortWithHelper;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoder;
-import edu.neu.coe.huskySort.sort.simple.MergeSortBasic;
-import edu.neu.coe.huskySort.util.Config;
-import edu.neu.coe.huskySort.util.StatPack;
-import edu.neu.coe.huskySort.util.Statistics;
-import edu.neu.coe.huskySort.util.Utilities;
+import edu.neu.coe.info6205.huskySort.sort.BaseHelper;
+import edu.neu.coe.info6205.huskySort.sort.InstrumentedHelper;
+import edu.neu.coe.info6205.huskySort.sort.SortWithHelper;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyCoder;
+import edu.neu.coe.info6205.huskySort.sort.simple.MergeSortBasic;
+import edu.neu.coe.info6205.huskySort.util.Config;
+import edu.neu.coe.info6205.huskySort.util.StatPack;
+import edu.neu.coe.info6205.huskySort.util.Statistics;
+import edu.neu.coe.info6205.huskySort.util.Utilities;
 
 import java.util.function.Consumer;
 

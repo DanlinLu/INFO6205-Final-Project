@@ -2,7 +2,7 @@
  * Copyright (c) 2017. Phasmid Software
  */
 
-package edu.neu.coe.huskySort.bqs;
+package edu.neu.coe.info6205.huskySort.bqs;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
-package edu.neu.coe.huskySort.sort.huskySortUtils;
+package edu.neu.coe.info6205.huskySort.sort.huskySortUtils;
 
-import edu.neu.coe.huskySort.util.PrivateMethodInvoker;
+import edu.neu.coe.info6205.huskySort.util.PrivateMethodInvoker;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -15,8 +15,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.function.Function;
 
-import static edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory.asciiToLong;
-import static edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory.utf8ToLong;
+import static edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyCoderFactory.asciiToLong;
+import static edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyCoderFactory.utf8ToLong;
 import static junit.framework.TestCase.assertEquals;
 import static org.junit.Assert.*;
 

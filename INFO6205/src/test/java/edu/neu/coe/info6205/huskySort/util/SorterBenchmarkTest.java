@@ -1,6 +1,6 @@
-package edu.neu.coe.huskySort.util;
+package edu.neu.coe.info6205.huskySort.util;
 
-import edu.neu.coe.huskySort.sort.simple.InsertionSort;
+import edu.neu.coe.info6205.huskySort.sort.simple.InsertionSort;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

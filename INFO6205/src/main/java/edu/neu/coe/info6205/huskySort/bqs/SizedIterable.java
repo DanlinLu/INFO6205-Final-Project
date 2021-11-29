@@ -1,4 +1,4 @@
-package edu.neu.coe.huskySort.bqs;
+package edu.neu.coe.info6205.huskySort.bqs;
 
 public interface SizedIterable<T> extends Iterable<T> {
 

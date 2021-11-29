@@ -1,7 +1,7 @@
-package edu.neu.coe.huskySort.sort;
+package edu.neu.coe.info6205.huskySort.sort;
 
-import edu.neu.coe.huskySort.sort.simple.MergeSortBasicTest;
-import edu.neu.coe.huskySort.util.Config;
+import edu.neu.coe.info6205.huskySort.sort.simple.MergeSortBasicTest;
+import edu.neu.coe.info6205.huskySort.util.Config;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

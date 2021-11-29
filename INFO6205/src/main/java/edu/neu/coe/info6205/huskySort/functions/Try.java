@@ -1,7 +1,7 @@
 /*
   (c) Copyright 2018, 2019 Phasmid Software
  */
-package edu.neu.coe.huskySort.functions;
+package edu.neu.coe.info6205.huskySort.functions;
 
 import java.util.NoSuchElementException;
 import java.util.Objects;

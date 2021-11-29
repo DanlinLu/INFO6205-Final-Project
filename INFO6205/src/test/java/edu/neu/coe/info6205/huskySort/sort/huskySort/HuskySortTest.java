@@ -1,15 +1,15 @@
-package edu.neu.coe.huskySort.sort.huskySort;
+package edu.neu.coe.info6205.huskySort.sort.huskySort;
 
-import edu.neu.coe.huskySort.sort.Helper;
-import edu.neu.coe.huskySort.sort.InstrumentedHelper;
-import edu.neu.coe.huskySort.sort.SortWithHelper;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyHelper;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskySortable;
-import edu.neu.coe.huskySort.util.Config;
-import edu.neu.coe.huskySort.util.ConfigTest;
-import edu.neu.coe.huskySort.util.PrivateMethodInvoker;
-import edu.neu.coe.huskySort.util.StatPack;
+import edu.neu.coe.info6205.huskySort.sort.Helper;
+import edu.neu.coe.info6205.huskySort.sort.InstrumentedHelper;
+import edu.neu.coe.info6205.huskySort.sort.SortWithHelper;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyCoderFactory;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyHelper;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskySortable;
+import edu.neu.coe.info6205.huskySort.util.Config;
+import edu.neu.coe.info6205.huskySort.util.ConfigTest;
+import edu.neu.coe.info6205.huskySort.util.PrivateMethodInvoker;
+import edu.neu.coe.info6205.huskySort.util.StatPack;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
-import static edu.neu.coe.huskySort.sort.huskySortUtils.HuskySortHelper.generateRandomAlphaBetaArray;
+import static edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskySortHelper.generateRandomAlphaBetaArray;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -204,7 +204,7 @@ public class HuskySortTest {
     public void testSortOldDate() {
         // NOTE it's OK that these methods are deprecated.
         Date[] xs = {new Date(2018, 11, 9), new Date(2018, 11, 6), new Date(2018, 10, 31), new Date(2018, 1, 1)};
-        AbstractHuskySort<Date> sorter = new edu.neu.coe.huskySort.sort.huskySort.QuickHuskySort<>(HuskyCoderFactory.dateCoder, config);
+        AbstractHuskySort<Date> sorter = new edu.neu.coe.info6205.huskySort.sort.huskySort.QuickHuskySort<>(HuskyCoderFactory.dateCoder, config);
         assertTrue("sorted", sorter.getHelper().sorted(sorter.sort(xs)));
     }
 
@@ -216,7 +216,7 @@ public class HuskySortTest {
         ChronoLocalDateTime<?> d4 = LocalDateTime.of(2018, 10, 31, 22, 3, 15);
         ChronoLocalDateTime<?> d5 = LocalDateTime.of(2018, 1, 1, 0, 0, 0);
         ChronoLocalDateTime<?>[] xs = {d1, d2, d3, d4, d5};
-        QuickHuskySort<ChronoLocalDateTime<?>> sorter = new edu.neu.coe.huskySort.sort.huskySort.QuickHuskySort<>(HuskyCoderFactory.chronoLocalDateTimeCoder, config);
+        QuickHuskySort<ChronoLocalDateTime<?>> sorter = new edu.neu.coe.info6205.huskySort.sort.huskySort.QuickHuskySort<>(HuskyCoderFactory.chronoLocalDateTimeCoder, config);
         assertTrue("sorted", sorter.getHelper().sorted(sorter.sort(xs)));
     }
 

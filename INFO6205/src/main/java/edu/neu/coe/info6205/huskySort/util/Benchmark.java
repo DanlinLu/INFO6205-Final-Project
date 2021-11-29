@@ -2,14 +2,14 @@
  * Copyright (c) 2018. Phasmid Software
  */
 
-package edu.neu.coe.huskySort.util;
+package edu.neu.coe.info6205.huskySort.util;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
 
-import static edu.neu.coe.huskySort.util.Utilities.formatWhole;
+import static edu.neu.coe.info6205.huskySort.util.Utilities.formatWhole;
 
 /**
  * @param <T> The generic type T is that of the input to the function f which you will pass in to the constructor.

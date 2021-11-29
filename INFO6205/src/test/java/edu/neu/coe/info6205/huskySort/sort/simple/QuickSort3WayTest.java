@@ -2,22 +2,22 @@
  * Copyright (c) 2017. Phasmid Software
  */
 
-package edu.neu.coe.huskySort.sort.simple;
+package edu.neu.coe.info6205.huskySort.sort.simple;
 
-import edu.neu.coe.huskySort.sort.*;
-import edu.neu.coe.huskySort.util.Config;
-import edu.neu.coe.huskySort.util.ConfigTest;
-import edu.neu.coe.huskySort.util.PrivateMethodInvoker;
-import edu.neu.coe.huskySort.util.StatPack;
+import edu.neu.coe.info6205.huskySort.sort.*;
+import edu.neu.coe.info6205.huskySort.util.Config;
+import edu.neu.coe.info6205.huskySort.util.ConfigTest;
+import edu.neu.coe.info6205.huskySort.util.PrivateMethodInvoker;
+import edu.neu.coe.info6205.huskySort.util.StatPack;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.io.IOException;
 import java.util.List;
 
-import static edu.neu.coe.huskySort.sort.huskySort.HuskySortBenchmark.runStringSortBenchmark;
-import static edu.neu.coe.huskySort.sort.huskySort.HuskySortBenchmark.timeLoggersLinearithmic;
-import static edu.neu.coe.huskySort.util.Utilities.round;
+import static edu.neu.coe.info6205.huskySort.sort.huskySort.HuskySortBenchmark.runStringSortBenchmark;
+import static edu.neu.coe.info6205.huskySort.sort.huskySort.HuskySortBenchmark.timeLoggersLinearithmic;
+import static edu.neu.coe.info6205.huskySort.util.Utilities.round;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 

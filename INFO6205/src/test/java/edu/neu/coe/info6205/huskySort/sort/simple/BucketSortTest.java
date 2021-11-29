@@ -2,9 +2,9 @@
  * Copyright (c) 2017. Phasmid Software
  */
 
-package edu.neu.coe.huskySort.sort.simple;
+package edu.neu.coe.info6205.huskySort.sort.simple;
 
-import edu.neu.coe.huskySort.sort.BaseHelper;
+import edu.neu.coe.info6205.huskySort.sort.BaseHelper;
 import org.junit.Test;
 
 import java.util.ArrayList;

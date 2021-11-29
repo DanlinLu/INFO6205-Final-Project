@@ -1,12 +1,12 @@
-package edu.neu.coe.huskySort.sort.huskySortUtils;
+package edu.neu.coe.info6205.huskySort.sort.huskySortUtils;
 
-import edu.neu.coe.huskySort.bqs.Bag;
-import edu.neu.coe.huskySort.util.PrivateMethodInvoker;
+import edu.neu.coe.info6205.huskySort.bqs.Bag;
+import edu.neu.coe.info6205.huskySort.util.PrivateMethodInvoker;
 import org.junit.Test;
 
 import java.util.Random;
 
-import static edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory.asciiToLong;
+import static edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyCoderFactory.asciiToLong;
 import static junit.framework.TestCase.assertEquals;
 import static org.junit.Assert.assertTrue;
 

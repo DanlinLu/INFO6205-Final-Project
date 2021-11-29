@@ -1,19 +1,19 @@
-package edu.neu.coe.huskySort.sort.huskySort;
+package edu.neu.coe.info6205.huskySort.sort.huskySort;
 
-import edu.neu.coe.huskySort.sort.BaseHelper;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory;
-import edu.neu.coe.huskySort.util.Benchmark;
-import edu.neu.coe.huskySort.util.Config;
-import edu.neu.coe.huskySort.util.TimeLogger;
-import edu.neu.coe.huskySort.util.Utilities;
+import edu.neu.coe.info6205.huskySort.sort.BaseHelper;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyCoderFactory;
+import edu.neu.coe.info6205.huskySort.util.Benchmark;
+import edu.neu.coe.info6205.huskySort.util.Config;
+import edu.neu.coe.info6205.huskySort.util.TimeLogger;
+import edu.neu.coe.info6205.huskySort.util.Utilities;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.io.IOException;
 import java.util.Random;
 
-import static edu.neu.coe.huskySort.sort.huskySort.HuskySortBenchmark.timeLoggersLinearithmic;
-import static edu.neu.coe.huskySort.util.ProcessorDependentTimeout.getFactoredTimeout;
+import static edu.neu.coe.info6205.huskySort.sort.huskySort.HuskySortBenchmark.timeLoggersLinearithmic;
+import static edu.neu.coe.info6205.huskySort.util.ProcessorDependentTimeout.getFactoredTimeout;
 import static java.util.concurrent.TimeUnit.MICROSECONDS;
 import static org.junit.Assert.assertEquals;
 

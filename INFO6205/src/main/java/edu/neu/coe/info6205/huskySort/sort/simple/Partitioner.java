@@ -1,4 +1,4 @@
-package edu.neu.coe.huskySort.sort.simple;
+package edu.neu.coe.info6205.huskySort.sort.simple;
 
 import java.util.List;
 

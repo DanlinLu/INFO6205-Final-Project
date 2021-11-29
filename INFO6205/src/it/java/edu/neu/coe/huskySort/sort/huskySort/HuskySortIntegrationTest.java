@@ -2,13 +2,13 @@
  * Copyright (c) 2017. Phasmid Software
  */
 
-package edu.neu.coe.huskySort.sort.huskySort;
+package edu.neu.coe.info6205.huskySort.sort.huskySort;
 
-import edu.neu.coe.huskySort.sort.Sort;
-import edu.neu.coe.huskySort.sort.simple.QuickSort_3way;
-import edu.neu.coe.huskySort.util.Benchmark;
-import edu.neu.coe.huskySort.util.Config;
-import edu.neu.coe.huskySort.util.ProcessorDependentTimeout;
+import edu.neu.coe.info6205.huskySort.sort.Sort;
+import edu.neu.coe.info6205.huskySort.sort.simple.QuickSort_3way;
+import edu.neu.coe.info6205.huskySort.util.Benchmark;
+import edu.neu.coe.info6205.huskySort.util.Config;
+import edu.neu.coe.info6205.huskySort.util.ProcessorDependentTimeout;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Rule;
@@ -19,8 +19,8 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Pattern;
 
-import static edu.neu.coe.huskySort.sort.huskySort.AbstractHuskySort.UNICODE_CODER;
-import static edu.neu.coe.huskySort.sort.huskySort.HuskySortBenchmarkHelper.generateRandomStringArray;
+import static edu.neu.coe.info6205.huskySort.sort.huskySort.AbstractHuskySort.UNICODE_CODER;
+import static edu.neu.coe.info6205.huskySort.sort.huskySort.HuskySortBenchmarkHelper.generateRandomStringArray;
 import static org.junit.Assert.assertTrue;
 
 /**

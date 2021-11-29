@@ -1,4 +1,4 @@
-package edu.neu.coe.huskySort.sort;
+package edu.neu.coe.info6205.huskySort.sort;
 
 import org.junit.Test;
 

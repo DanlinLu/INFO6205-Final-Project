@@ -2,11 +2,11 @@
  * Copyright (c) 2017. Phasmid Software
  */
 
-package edu.neu.coe.huskySort.sort.simple;
+package edu.neu.coe.info6205.huskySort.sort.simple;
 
-import edu.neu.coe.huskySort.sort.BaseHelper;
-import edu.neu.coe.huskySort.sort.Sort;
-import edu.neu.coe.huskySort.util.PrivateMethodInvoker;
+import edu.neu.coe.info6205.huskySort.sort.BaseHelper;
+import edu.neu.coe.info6205.huskySort.sort.Sort;
+import edu.neu.coe.info6205.huskySort.util.PrivateMethodInvoker;
 import org.junit.Ignore;
 import org.junit.Test;
 

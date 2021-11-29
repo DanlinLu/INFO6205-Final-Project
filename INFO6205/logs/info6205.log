@@ -19277,3 +19277,10 @@
 2021-11-24 17:43:05 INFO  Benchmark_Timer - Begin run: result with 50 runs
 2021-11-24 17:48:09 INFO  Benchmark_Timer - Begin run: result with 10 runs
 2021-11-24 17:49:50 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-11-29 17:02:05 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-29 17:02:05 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-29 17:02:50 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-29 17:02:50 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-29 17:03:43 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-29 17:03:43 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-29 17:05:52 DEBUG Config - Config.get(helper, instrument) = false

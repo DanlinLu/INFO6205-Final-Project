@@ -1,12 +1,12 @@
-package edu.neu.coe.huskySort.sort;
+package edu.neu.coe.info6205.huskySort.sort;
 
-import edu.neu.coe.huskySort.util.Config;
-import edu.neu.coe.huskySort.util.LazyLogger;
-import edu.neu.coe.huskySort.util.StatPack;
+import edu.neu.coe.info6205.huskySort.util.Config;
+import edu.neu.coe.info6205.huskySort.util.LazyLogger;
+import edu.neu.coe.info6205.huskySort.util.StatPack;
 
 import java.util.Random;
 
-import static edu.neu.coe.huskySort.util.Utilities.formatWhole;
+import static edu.neu.coe.info6205.huskySort.util.Utilities.formatWhole;
 
 /**
  * Helper class for sorting methods with instrumentation of compares and swaps, and in addition, bounds checks.
