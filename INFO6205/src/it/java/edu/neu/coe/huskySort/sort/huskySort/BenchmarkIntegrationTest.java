@@ -2,13 +2,13 @@
  * Copyright (c) 2017. Phasmid Software
  */
 
-package edu.neu.coe.huskySort.sort.huskySort;
+package edu.neu.coe.info6205.huskySort.sort.huskySort;
 
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskySequenceCoder;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskySortHelper;
-import edu.neu.coe.huskySort.util.Config;
-import edu.neu.coe.huskySort.util.LazyLogger;
-import edu.neu.coe.huskySort.util.ProcessorDependentTimeout;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskySequenceCoder;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskySortHelper;
+import edu.neu.coe.info6205.huskySort.util.Config;
+import edu.neu.coe.info6205.huskySort.util.LazyLogger;
+import edu.neu.coe.info6205.huskySort.util.ProcessorDependentTimeout;
 import org.apache.log4j.Logger;
 import org.junit.BeforeClass;
 import org.junit.Rule;

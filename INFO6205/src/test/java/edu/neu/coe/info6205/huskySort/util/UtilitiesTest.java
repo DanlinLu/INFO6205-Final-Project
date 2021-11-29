@@ -1,11 +1,11 @@
-package edu.neu.coe.huskySort.util;
+package edu.neu.coe.info6205.huskySort.util;
 
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static edu.neu.coe.huskySort.util.Utilities.*;
+import static edu.neu.coe.info6205.huskySort.util.Utilities.*;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 

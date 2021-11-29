@@ -1,11 +1,11 @@
-package edu.neu.coe.huskySort.sort.simple;
+package edu.neu.coe.info6205.huskySort.sort.simple;
 
-import edu.neu.coe.huskySort.bqs.Bag;
-import edu.neu.coe.huskySort.bqs.Bag_Array;
-import edu.neu.coe.huskySort.sort.BaseHelper;
-import edu.neu.coe.huskySort.sort.Sort;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyBucketHelper;
-import edu.neu.coe.huskySort.util.LazyLogger;
+import edu.neu.coe.info6205.huskySort.bqs.Bag;
+import edu.neu.coe.info6205.huskySort.bqs.Bag_Array;
+import edu.neu.coe.info6205.huskySort.sort.BaseHelper;
+import edu.neu.coe.info6205.huskySort.sort.Sort;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyBucketHelper;
+import edu.neu.coe.info6205.huskySort.util.LazyLogger;
 
 import java.lang.reflect.Array;
 

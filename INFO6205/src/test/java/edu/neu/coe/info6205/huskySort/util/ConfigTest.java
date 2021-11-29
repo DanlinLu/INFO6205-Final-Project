@@ -1,6 +1,6 @@
-package edu.neu.coe.huskySort.util;
+package edu.neu.coe.info6205.huskySort.util;
 
-import edu.neu.coe.huskySort.sort.InstrumentedHelper;
+import edu.neu.coe.info6205.huskySort.sort.InstrumentedHelper;
 import org.ini4j.Ini;
 import org.junit.Ignore;
 import org.junit.Test;

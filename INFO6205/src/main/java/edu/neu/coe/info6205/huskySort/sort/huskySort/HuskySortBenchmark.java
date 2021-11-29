@@ -1,17 +1,17 @@
 /*
   (c) Copyright 2018, 2019 Phasmid Software
  */
-package edu.neu.coe.huskySort.sort.huskySort;
+package edu.neu.coe.info6205.huskySort.sort.huskySort;
 
-import edu.neu.coe.huskySort.sort.BaseHelper;
-import edu.neu.coe.huskySort.sort.SortWithHelper;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoder;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskySortHelper;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskySortable;
-import edu.neu.coe.huskySort.sort.simple.TimSort;
-import edu.neu.coe.huskySort.sort.simple.*;
-import edu.neu.coe.huskySort.util.*;
+import edu.neu.coe.info6205.huskySort.sort.BaseHelper;
+import edu.neu.coe.info6205.huskySort.sort.SortWithHelper;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyCoder;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyCoderFactory;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskySortHelper;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskySortable;
+import edu.neu.coe.info6205.huskySort.sort.simple.TimSort;
+import edu.neu.coe.info6205.huskySort.sort.simple.*;
+import edu.neu.coe.info6205.huskySort.util.*;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -25,10 +25,10 @@ import java.util.function.*;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
-import static edu.neu.coe.huskySort.sort.huskySort.AbstractHuskySort.UNICODE_CODER;
-import static edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory.englishCoder;
-import static edu.neu.coe.huskySort.sort.huskySortUtils.HuskySortHelper.generateRandomLocalDateTimeArray;
-import static edu.neu.coe.huskySort.util.Utilities.*;
+import static edu.neu.coe.info6205.huskySort.sort.huskySort.AbstractHuskySort.UNICODE_CODER;
+import static edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyCoderFactory.englishCoder;
+import static edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskySortHelper.generateRandomLocalDateTimeArray;
+import static edu.neu.coe.info6205.huskySort.util.Utilities.*;
 
 public final class HuskySortBenchmark {
 

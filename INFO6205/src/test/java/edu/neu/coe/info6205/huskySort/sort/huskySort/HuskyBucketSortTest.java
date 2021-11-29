@@ -2,10 +2,10 @@
  * Copyright (c) 2017. Phasmid Software
  */
 
-package edu.neu.coe.huskySort.sort.huskySort;
+package edu.neu.coe.info6205.huskySort.sort.huskySort;
 
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory;
-import edu.neu.coe.huskySort.util.Config;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyCoderFactory;
+import edu.neu.coe.info6205.huskySort.util.Config;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

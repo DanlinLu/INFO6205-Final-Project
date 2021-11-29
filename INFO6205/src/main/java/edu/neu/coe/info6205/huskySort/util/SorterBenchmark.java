@@ -1,11 +1,11 @@
-package edu.neu.coe.huskySort.util;
+package edu.neu.coe.info6205.huskySort.util;
 
-import edu.neu.coe.huskySort.sort.SortWithHelper;
+import edu.neu.coe.info6205.huskySort.sort.SortWithHelper;
 
 import java.util.function.Consumer;
 import java.util.function.UnaryOperator;
 
-import static edu.neu.coe.huskySort.util.Utilities.formatWhole;
+import static edu.neu.coe.info6205.huskySort.util.Utilities.formatWhole;
 
 /**
  * Class to extend Benchmark for sorting an array of T values.

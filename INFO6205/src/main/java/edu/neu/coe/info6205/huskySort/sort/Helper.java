@@ -1,4 +1,4 @@
-package edu.neu.coe.huskySort.sort;
+package edu.neu.coe.info6205.huskySort.sort;
 
 import java.util.Random;
 import java.util.function.Function;

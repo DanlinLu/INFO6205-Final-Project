@@ -1,10 +1,10 @@
-package edu.neu.coe.huskySort.sort.huskySort;
+package edu.neu.coe.info6205.huskySort.sort.huskySort;
 
-import edu.neu.coe.huskySort.sort.BaseHelper;
-import edu.neu.coe.huskySort.sort.huskySortUtils.Coding;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoder;
-import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory;
-import edu.neu.coe.huskySort.util.PrivateMethodInvoker;
+import edu.neu.coe.info6205.huskySort.sort.BaseHelper;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.Coding;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyCoder;
+import edu.neu.coe.info6205.huskySort.sort.huskySortUtils.HuskyCoderFactory;
+import edu.neu.coe.info6205.huskySort.util.PrivateMethodInvoker;
 import org.junit.Test;
 
 import java.math.BigInteger;

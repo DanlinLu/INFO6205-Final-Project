@@ -1,4 +1,4 @@
-package edu.neu.coe.huskySort.util;
+package edu.neu.coe.info6205.huskySort.util;
 
 import java.util.function.Consumer;
 import java.util.function.Function;

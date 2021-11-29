@@ -1,6 +1,6 @@
-package edu.neu.coe.huskySort.sort.huskySortUtils;
+package edu.neu.coe.info6205.huskySort.sort.huskySortUtils;
 
-import edu.neu.coe.huskySort.sort.BaseHelper;
+import edu.neu.coe.info6205.huskySort.sort.BaseHelper;
 import org.junit.Test;
 
 import java.util.ArrayList;

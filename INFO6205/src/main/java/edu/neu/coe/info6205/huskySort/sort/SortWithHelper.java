@@ -1,6 +1,6 @@
-package edu.neu.coe.huskySort.sort;
+package edu.neu.coe.info6205.huskySort.sort;
 
-import edu.neu.coe.huskySort.util.Config;
+import edu.neu.coe.info6205.huskySort.util.Config;
 
 /**
  * Base class for a sorter that uses a Helper.

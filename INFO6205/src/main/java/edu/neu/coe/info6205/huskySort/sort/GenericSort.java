@@ -1,6 +1,6 @@
-package edu.neu.coe.huskySort.sort;
+package edu.neu.coe.info6205.huskySort.sort;
 
-import edu.neu.coe.huskySort.util.Utilities;
+import edu.neu.coe.info6205.huskySort.util.Utilities;
 
 import java.util.Arrays;
 import java.util.Collection;

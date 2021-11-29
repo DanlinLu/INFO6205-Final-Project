@@ -1,4 +1,4 @@
-package edu.neu.coe.huskySort.util;
+package edu.neu.coe.info6205.huskySort.util;
 
 public class Statistics {
 

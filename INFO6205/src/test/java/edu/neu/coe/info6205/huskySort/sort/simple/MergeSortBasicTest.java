@@ -2,16 +2,16 @@
  * Copyright (c) 2017. Phasmid Software
  */
 
-package edu.neu.coe.huskySort.sort.simple;
+package edu.neu.coe.info6205.huskySort.sort.simple;
 
-import edu.neu.coe.huskySort.sort.Helper;
-import edu.neu.coe.huskySort.sort.HelperFactory;
-import edu.neu.coe.huskySort.sort.InstrumentedHelper;
-import edu.neu.coe.huskySort.sort.Sort;
-import edu.neu.coe.huskySort.util.Config;
-import edu.neu.coe.huskySort.util.ConfigTest;
-import edu.neu.coe.huskySort.util.PrivateMethodInvoker;
-import edu.neu.coe.huskySort.util.StatPack;
+import edu.neu.coe.info6205.huskySort.sort.Helper;
+import edu.neu.coe.info6205.huskySort.sort.HelperFactory;
+import edu.neu.coe.info6205.huskySort.sort.InstrumentedHelper;
+import edu.neu.coe.info6205.huskySort.sort.Sort;
+import edu.neu.coe.info6205.huskySort.util.Config;
+import edu.neu.coe.info6205.huskySort.util.ConfigTest;
+import edu.neu.coe.info6205.huskySort.util.PrivateMethodInvoker;
+import edu.neu.coe.info6205.huskySort.util.StatPack;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
