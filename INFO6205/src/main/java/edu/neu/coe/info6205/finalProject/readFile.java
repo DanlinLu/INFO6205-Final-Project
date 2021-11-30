@@ -18,11 +18,11 @@ import java.util.HashMap;
  */
 public class readFile {
     public static void main(String[] args) throws Exception {  
-        String filePath = "./shuffledChinese4.txt";
+        String filePath = "./shuffledChinese.txt";
 //      String filePath = "D:/article333.txt";    
 //      String filePath = "D:/article111.txt";    
         HashMap<String,String> content = readTxt(filePath);  
-        System.out.println(content);  
+        System.out.println(content.size());  //output size of hashmap
     }  
       
       
@@ -49,8 +49,15 @@ public class readFile {
             String str = "";  
             convertToPinyin toPinYin = new convertToPinyin();
             while (null != (str = br.readLine())) {  
-                //content.append(str);  
-                map.put(getAllPinyin(str), str);
+                //content.append(str); 
+                //判断key是否已经存在
+                String str1 = getAllPinyin(str);
+                while(!map.getOrDefault(str1, "0").equals("0")){
+                    //若已存在后面加一个a;
+                    str1 += " ";
+                }
+                //if(i==1) stri+= " ";
+                map.put(str1, str);
             }  
             br.close();  
         } catch (Exception e) {  

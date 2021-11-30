@@ -42,7 +42,7 @@ public class QuickSort_DualPivotResult {
 		for (String j : filePathList) {
 			HashMap<String,String> content = readTxt(j);
                         Set<String> keycontent = content.keySet();
-			double meanT = TimResult.ddoit(keycontent);
+			double meanT = QuickSort_DualPivotResult.ddoit(keycontent);
 			System.out.println(content.size()+"-element file use "+meanT+" ms");
 			}
 		

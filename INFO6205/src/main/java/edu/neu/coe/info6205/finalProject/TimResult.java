@@ -44,7 +44,6 @@ public class TimResult {
                         Set<String> keycontent = content.keySet();
 			double meanT = TimResult.ddoit(keycontent);
 			System.out.println(content.size()+"-element file use "+meanT+" ms");
-			}
-		
+                }
 	}
 }

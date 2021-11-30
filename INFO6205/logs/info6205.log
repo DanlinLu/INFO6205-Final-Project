@@ -19284,3 +19284,44 @@
 2021-11-29 17:03:43 INFO  Benchmark_Timer - Begin run: result with 50 runs
 2021-11-29 17:03:43 DEBUG Config - Config.get(helper, instrument) = false
 2021-11-29 17:05:52 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-29 18:26:51 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-29 18:26:51 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-29 18:28:35 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-29 18:28:35 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-29 18:29:28 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-29 18:29:30 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-29 18:29:30 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-29 18:29:30 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-29 18:30:07 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-29 18:31:02 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-29 18:31:02 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-29 18:31:02 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-29 22:39:35 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-29 22:40:10 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-29 23:06:30 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-29 23:07:08 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-29 23:40:28 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-29 23:43:06 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-29 23:49:51 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 00:32:41 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 00:34:31 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 02:51:41 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 15:32:02 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-30 15:32:02 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 15:37:57 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 15:39:25 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 15:39:57 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 15:43:06 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 15:45:54 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 15:49:45 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 15:51:09 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 15:58:57 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 15:59:53 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 16:02:35 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-11-30 16:02:35 DEBUG Config - Config.get(helper, instrument) = false
+2021-11-30 16:04:09 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-30 16:04:33 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-30 16:04:49 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-30 16:04:49 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-30 16:04:49 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-11-30 16:10:39 DEBUG Config - Config.get(helper, instrument) = false
