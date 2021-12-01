@@ -25,7 +25,7 @@ public class huskyResult {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        String[] filePathList = {"./shuffledChinese2.txt","./shuffledChinese3.txt","./shuffledChinese4.txt"};
+        String[] filePathList = {"./shuffledChinese.txt"};
         for (String j : filePathList) {
             HashMap<String,String> content = readTxt(j);
             Set<String> keycontent = content.keySet();

@@ -26,10 +26,10 @@ public class QuickSort_DualPivotResult {
     public static double ddoit(Set<String> arrList) throws IOException {
                 config = Config.load();
 		String[] arr = arrList.toArray(new String[arrList.size()]);
-                Supplier<String[]> supplier = () -> arr;
-                Consumer<String[]> consumer = (f) -> {
-                    QuickSort_DualPivot<String> qs_dualPivot = new QuickSort_DualPivot<>(arr.length,config);
-                    qs_dualPivot.sort(arr);
+        Supplier<String[]> supplier = () -> arr;
+        Consumer<String[]> consumer = (f) -> {
+        QuickSort_DualPivot<String> qs_dualPivot = new QuickSort_DualPivot<>(arr.length,config);
+        qs_dualPivot.sort(arr);
                 };
 		Benchmark_Timer<String[]> benchMark = new Benchmark_Timer<String[]>("result",consumer);
 		double time = benchMark.runFromSupplier(supplier, 50);

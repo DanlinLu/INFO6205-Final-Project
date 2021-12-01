@@ -26,10 +26,10 @@ public class TimResult {
     public static double ddoit(Set<String> arrList) throws IOException {
                 config = Config.load();
 		String[] arr = arrList.toArray(new String[arrList.size()]);
-                Supplier<String[]> supplier = () -> arr;
-                Consumer<String[]> consumer = (f) -> {
-                    TimSort<String> timsort = new TimSort<>(arr.length,config);
-                    timsort.sort(arr,0,arr.length);
+        Supplier<String[]> supplier = () -> arr;
+        Consumer<String[]> consumer = (f) -> {
+        TimSort<String> timsort = new TimSort<>(arr.length,config);
+        timsort.sort(arr,0,arr.length);
                 };
 		Benchmark_Timer<String[]> benchMark = new Benchmark_Timer<String[]>("result",consumer);
 		double time = benchMark.runFromSupplier(supplier, 50);
@@ -38,10 +38,10 @@ public class TimResult {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
                 
-		String[] filePathList = {"./shuffledChinese.txt"};
+		String[] filePathList = {"./shuffledChinese4.txt"};
 		for (String j : filePathList) {
 			HashMap<String,String> content = readTxt(j);
-                        Set<String> keycontent = content.keySet();
+            Set<String> keycontent = content.keySet();
 			double meanT = TimResult.ddoit(keycontent);
 			System.out.println(content.size()+"-element file use "+meanT+" ms");
                 }
