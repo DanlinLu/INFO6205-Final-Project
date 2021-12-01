@@ -20,7 +20,7 @@ import java.util.List;
  */
 public class huskyOutput {
     public static void main(String[] args) throws IOException{
-        String filePath = "./shuffledChinese.txt";   
+        String filePath = "./shuffledChinese-500k.txt";   
         HashMap<String,String> content = readTxt(filePath);  
         String[] xs = new String[content.size()];
         content.keySet().toArray(xs);
@@ -33,7 +33,7 @@ public class huskyOutput {
             list.add(content.get(s));
             System.out.println(content.get(s)+" : "+s);
         }
-        String path = "./SortedResultOfHusky.txt";
+        String path = "./SortedResultOfHusky-500k.txt";
         writeFile(list,path);
         System.out.println(list.size()+" elements has saved into "+path);
     }

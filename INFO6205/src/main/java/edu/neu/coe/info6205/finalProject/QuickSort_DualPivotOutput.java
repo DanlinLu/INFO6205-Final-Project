@@ -23,7 +23,7 @@ public class QuickSort_DualPivotOutput {
     private static Config config;
     public static void main(String[] args) throws IOException{
         config = Config.load();
-        String filePath = "./shuffledChinese.txt";   
+        String filePath = "./shuffledChinese-500k.txt";   
         HashMap<String,String> content = readTxt(filePath);  
         String[] xs = new String[content.size()];
         content.keySet().toArray(xs);
@@ -36,7 +36,7 @@ public class QuickSort_DualPivotOutput {
             list.add(content.get(s));
             System.out.println(content.get(s)+" : "+s);
         }
-        String path = "./SortedResultOfQuickSort_DualPivot.txt";
+        String path = "./SortedResultOfQuickSort_DualPivot-500k.txt";
         writeFile(list,path);
         System.out.println(list.size()+" elements has saved into "+path);
     }

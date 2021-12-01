@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class LSDOutput {
     public static void main(String[] args) throws IOException{
-        String filePath = "./shuffledChinese.txt";   
+        String filePath = "./shuffledChinese-500k.txt";   
         HashMap<String,String> content = readTxt(filePath);  
         String[] xs = new String[content.size()];
         content.keySet().toArray(xs);
@@ -32,7 +32,7 @@ public class LSDOutput {
             list.add(content.get(s));
             System.out.println(content.get(s)+" : "+s);
         }
-        String path = "./SortedResultOfLSD.txt";
+        String path = "./SortedResultOfLSD-500k.txt";
         writeFile(list,path);
         System.out.println(list.size()+" elements has saved into "+path);
     }
