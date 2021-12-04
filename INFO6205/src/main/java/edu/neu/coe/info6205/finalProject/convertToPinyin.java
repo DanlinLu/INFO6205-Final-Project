@@ -96,6 +96,7 @@ public class convertToPinyin {
     }
 
     public static void main(String[] args) {
+        System.out.println("鲁丹霖\r杨雯琪\r张坤辉");
         String pinYin = getAllPinyin("鲁丹霖\r杨雯琪\r张坤辉");
         System.out.println(pinYin);
 

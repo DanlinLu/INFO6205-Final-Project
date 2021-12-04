@@ -19333,3 +19333,338 @@
 2021-11-30 19:19:35 DEBUG Config - Config.get(helper, instrument) = false
 2021-11-30 19:20:36 DEBUG Config - Config.get(helper, instrument) = false
 2021-11-30 19:37:52 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-01 20:34:18 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-01 20:34:18 DEBUG Config - Config.get(helper, seed) = 0
+2021-12-01 20:34:18 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-12-01 20:34:18 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-12-01 20:34:18 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-12-01 20:34:18 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-12-01 20:34:18 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-12-01 20:34:18 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-12-01 20:34:18 DEBUG Config - Config.get(helper, cutoff) = 
+2021-12-02 23:39:15 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-02 23:39:45 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-02 23:41:03 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-02 23:45:39 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 00:05:45 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:21:59 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:22:11 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:22:31 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:23:14 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:24:48 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:43:43 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:43:43 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-03 01:43:47 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:43:54 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:44:07 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:44:40 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:46:01 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:46:01 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-03 01:46:12 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:46:30 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:47:13 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 01:48:56 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 02:01:40 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-03 02:03:19 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-03 02:32:25 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 02:33:07 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 02:34:19 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 02:36:55 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 02:44:28 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 03:06:06 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 03:11:42 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 03:22:07 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 03:42:54 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 04:13:15 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 04:19:26 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 04:28:33 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 05:54:53 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 05:59:24 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 06:07:42 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 06:25:11 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 10:52:21 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 14:43:12 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 14:44:14 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 14:46:11 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 14:48:13 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-03 14:48:25 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-03 14:48:46 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-03 14:49:32 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-03 14:51:46 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-03 15:06:45 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-03 15:06:45 DEBUG Config - Config.get(helper, seed) = 0
+2021-12-03 15:06:45 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-12-03 15:06:45 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-12-03 15:06:45 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-12-03 15:06:45 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-12-03 15:06:45 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-12-03 15:06:45 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-12-03 15:06:45 DEBUG Config - Config.get(helper, cutoff) = 
+2021-12-03 15:07:19 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-03 15:12:09 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 15:17:07 INFO  Benchmark_Timer - Begin run: result with 50 runs
+2021-12-03 15:20:58 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 15:21:40 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 15:22:52 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 15:25:26 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 15:33:03 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-03 16:13:13 DEBUG Config - Config.get(helper, instrument) = true
+2021-12-03 16:13:13 DEBUG Config - Config.get(helper, seed) = null
+2021-12-03 16:13:13 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-12-03 16:13:13 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-12-03 16:13:13 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-12-03 16:13:13 DEBUG Config - Config.get(instrumenting, inversions) = 10
+2021-12-03 16:13:13 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-12-03 16:13:13 DEBUG Config - Config.get(helper, cutoff) = null
+2021-12-03 16:13:13 INFO  HuskySortBenchmarkHelper - getWords: testing with 2,998 unique words: from D:\git\INFO6205-Final-Project\INFO6205\target\classes\3000-common-words.txt
+2021-12-03 16:13:13 INFO  HuskySortBenchmarkHelper - test1.0
+2021-12-03 16:13:13 INFO  HuskySortBenchmarkHelper - getWords: testing with 2,998 unique words: from D:\git\INFO6205-Final-Project\INFO6205\target\classes\3000-common-words.txt
+2021-12-03 16:13:13 INFO  HuskySortBenchmark - sortNumerics: beginning numeric sorts
+2021-12-03 16:13:13 DEBUG Config - Config.get(benchmarknumbersorters, timsort) = false
+2021-12-03 16:13:13 DEBUG Config - Config.get(benchmarknumbersorters, huskysort) = false
+2021-12-03 16:13:13 DEBUG Config - Config.get(benchmarknumbersorters, mergehuskysort) = false
+2021-12-03 16:13:13 DEBUG Config - Config.get(benchmarknumbersorters, quicksort) = false
+2021-12-03 16:13:13 DEBUG Config - Config.get(benchmarknumbersorters, pcrit) = null
+2021-12-03 16:13:13 INFO  HuskySortBenchmark - sortLocalDateTimes: beginning LocalDateTime sorts
+2021-12-03 16:13:13 DEBUG Config - Config.get(benchmarkdatesorters, timsort) = true
+2021-12-03 16:13:13 INFO  Benchmark - Begin run: Sort  (100 LocalDateTimes using Arrays::sort (TimSort) with 191 runs
+2021-12-03 16:13:13 INFO  HuskySortBenchmark - .03 ms
+2021-12-03 16:13:13 INFO  Benchmark - Begin run: Repeat Sort  (100 LocalDateTimes using timSort::mutatingSort with 191 runs
+2021-12-03 16:13:13 INFO  HuskySortBenchmark - .01 ms
+2021-12-03 16:13:13 INFO  SorterBenchmark - run: sort 100 elements using SorterBenchmark on class java.time.LocalDateTime from 100 total elements and 191 runs using sorter: Timsort
+2021-12-03 16:13:13 INFO  Benchmark - Begin run: Helper for Timsort with 0 elements with 191 runs
+2021-12-03 16:13:13 INFO  TimeLogger - Raw time per run (mSec):  .03
+2021-12-03 16:13:13 INFO  TimeLogger - Normalized time per run (n log n):  9.15
+2021-12-03 16:13:13 DEBUG Config - Config.get(benchmarkdatesorters, quickhuskysort) = false
+2021-12-03 16:13:13 DEBUG Config - Config.get(benchmarkdatesorters, quickhuskyinsertionsort) = false
+2021-12-03 16:13:13 INFO  Benchmark - Begin run: Sort 1000 Bytes using System sort with 100 runs
+2021-12-03 16:13:13 INFO  HuskySortBenchmark - .64 ms
+2021-12-03 16:13:13 INFO  Benchmark - Begin run: Sort 1000 Bytes using PureHuskySort with 100 runs
+2021-12-03 16:13:13 INFO  HuskySortBenchmark - .40 ms
+2021-12-03 16:13:13 INFO  Benchmark - Begin run: Sort 1000 Bytes using MergeHuskySort with 100 runs
+2021-12-03 16:13:13 INFO  HuskySortBenchmark - .54 ms
+2021-12-03 16:13:13 INFO  Benchmark - Begin run: Sort 2000 Bytes using System sort with 100 runs
+2021-12-03 16:13:13 INFO  HuskySortBenchmark - 1.04 ms
+2021-12-03 16:13:13 INFO  Benchmark - Begin run: Sort 2000 Bytes using PureHuskySort with 100 runs
+2021-12-03 16:13:13 INFO  HuskySortBenchmark - 1.05 ms
+2021-12-03 16:13:13 INFO  Benchmark - Begin run: Sort 2000 Bytes using MergeHuskySort with 100 runs
+2021-12-03 16:13:13 INFO  HuskySortBenchmark - .91 ms
+2021-12-03 16:13:13 INFO  Benchmark - Begin run: Sort 5000 Bytes using System sort with 100 runs
+2021-12-03 16:13:13 INFO  HuskySortBenchmark - .64 ms
+2021-12-03 16:13:13 INFO  Benchmark - Begin run: Sort 5000 Bytes using PureHuskySort with 100 runs
+2021-12-03 16:13:14 INFO  HuskySortBenchmark - 1.83 ms
+2021-12-03 16:13:14 INFO  Benchmark - Begin run: Sort 5000 Bytes using MergeHuskySort with 100 runs
+2021-12-03 16:13:14 INFO  HuskySortBenchmark - .59 ms
+2021-12-03 16:13:14 INFO  Benchmark - Begin run: Sort 10000 Bytes using System sort with 100 runs
+2021-12-03 16:13:14 INFO  HuskySortBenchmark - 1.16 ms
+2021-12-03 16:13:14 INFO  Benchmark - Begin run: Sort 10000 Bytes using PureHuskySort with 100 runs
+2021-12-03 16:13:14 INFO  HuskySortBenchmark - .80 ms
+2021-12-03 16:13:14 INFO  Benchmark - Begin run: Sort 10000 Bytes using MergeHuskySort with 100 runs
+2021-12-03 16:13:14 INFO  HuskySortBenchmark - 1.28 ms
+2021-12-03 16:13:14 INFO  HuskySortBenchmark - sortTuples: beginning Tuple sorts
+2021-12-03 16:13:14 DEBUG Config - Config.get(benchmarktuplesorters, timsort) = false
+2021-12-03 16:13:14 DEBUG Config - Config.get(benchmarktuplesorters, huskysort) = false
+2021-12-03 16:13:14 DEBUG Config - Config.get(benchmarktuplesorters, mergehuskysort) = false
+2021-12-03 16:13:14 INFO  HuskySortBenchmark - sortStrings: beginning String sorts
+2021-12-03 16:13:14 DEBUG Config - Config.get(benchmarkstringsorters, leipzigenglish) = false
+2021-12-03 16:13:14 DEBUG Config - Config.get(benchmarkstringsorters, leipzigchinese) = false
+2021-12-03 16:13:14 DEBUG Config - Config.get(benchmarkstringsorters, english) = false
+2021-12-03 16:13:14 DEBUG Config - Config.get(huskyhelper, countinteriminversions) = false
+2021-12-03 16:13:14 DEBUG InstrumentedHelper - Closing Helper: MergeSort with statPack: StatPack {interiminversions: <unset>; copies: <unset>; inversions: 245; swaps: <unset>; fixes: 245; compares: <unset>}
+2021-12-03 16:13:14 DEBUG InstrumentedHelper - Closing Helper: MergeSort with statPack: StatPack {interiminversions: <unset>; copies: <unset>; inversions: 2,751; swaps: <unset>; fixes: 2,751; compares: <unset>}
+2021-12-03 16:13:14 DEBUG InstrumentedHelper - Closing Helper: MergeSort with statPack: StatPack {interiminversions: <unset>; copies: <unset>; inversions: 28,378; swaps: <unset>; fixes: 28,378; compares: <unset>}
+2021-12-03 16:13:14 DEBUG InstrumentedHelper - Closing Helper: Husky Delegate Helper with statPack: StatPack {interiminversions: <unset>; copies: 0; inversions: 245,854; swaps: 10,826; fixes: 358,000; compares: 0}
+2021-12-03 16:13:14 DEBUG InstrumentedHelper - Closing Helper: MergeSort with statPack: StatPack {interiminversions: <unset>; copies: 15,664; inversions: 0; swaps: 0; fixes: 0; compares: 4,652}
+2021-12-03 16:13:14 DEBUG Config - Config.get(huskysort, version) = null
+2021-12-03 16:13:14 DEBUG Config - Config.get(huskysort, huskycoder) = Unicode
+2021-12-03 16:13:14 INFO  QuickBenchmarkIntegrationTest - HuskySortBenchmark.main: null
+2021-12-03 16:13:14 INFO  HuskySortBenchmarkHelper - getWords: testing with 22,915 unique words: from D:\git\INFO6205-Final-Project\INFO6205\target\classes\eng-uk_web_2002_10K-sentences.txt
+2021-12-03 16:13:14 INFO  HuskySortBenchmark - benchmarkStringSortersInstrumented: testing with 100 runs of sorting 1,000 words and instrumented
+2021-12-03 16:13:14 DEBUG Config - Config.get(benchmarkstringsorters, mergesort) = true
+2021-12-03 16:13:14 INFO  SorterBenchmark - run: sort 1,000 elements using SorterBenchmark on class java.lang.String from 22,915 total elements and 100 runs using sorter: MergeSort
+2021-12-03 16:13:14 INFO  Benchmark - Begin run: Instrumenting helper for MergeSort with 1,000 elements with 100 runs
+2021-12-03 16:13:14 INFO  TimeLogger - Raw time per run (mSec):  .24
+2021-12-03 16:13:14 INFO  TimeLogger - Normalized time per run (n log n):  4.72
+2021-12-03 16:13:14 DEBUG InstrumentedHelper - Closing Helper: MergeSort with statPack: StatPack {interiminversions: <unset>; copies: 15,664; inversions: mean=249,302; stdDev=4,087; swaps: mean=877; stdDev=26; fixes: mean=249,817; stdDev=5,914; compares: mean=8,812; stdDev=24}
+2021-12-03 16:13:14 DEBUG Config - Config.get(benchmarkstringsorters, quicksort3way) = true
+2021-12-03 16:13:14 INFO  SorterBenchmark - run: sort 1,000 elements using SorterBenchmark on class java.lang.String from 22,915 total elements and 100 runs using sorter: QuickSort 3 way
+2021-12-03 16:13:14 INFO  Benchmark - Begin run: Instrumenting helper for QuickSort 3 way with 1,000 elements with 100 runs
+2021-12-03 16:13:15 INFO  TimeLogger - Raw time per run (mSec):  9.15
+2021-12-03 16:13:15 INFO  TimeLogger - Normalized time per run (n log n):  178.74
+2021-12-03 16:13:15 DEBUG InstrumentedHelper - Closing Helper: QuickSort 3 way with statPack: StatPack {interiminversions: <unset>; copies: 0; inversions: mean=249,096; stdDev=8,153; swaps: mean=10,602; stdDev=626; fixes: mean=443,832; stdDev=98,733; compares: mean=11,268; stdDev=625}
+2021-12-03 16:13:15 DEBUG Config - Config.get(benchmarkstringsorters, quicksort) = true
+2021-12-03 16:13:15 INFO  SorterBenchmark - run: sort 1,000 elements using SorterBenchmark on class java.lang.String from 22,915 total elements and 100 runs using sorter: QuickSort dual pivot
+2021-12-03 16:13:15 INFO  Benchmark - Begin run: Instrumenting helper for QuickSort dual pivot with 1,000 elements with 100 runs
+2021-12-03 16:13:16 INFO  TimeLogger - Raw time per run (mSec):  4.46
+2021-12-03 16:13:16 INFO  TimeLogger - Normalized time per run (n log n):  87.18
+2021-12-03 16:13:16 DEBUG InstrumentedHelper - Closing Helper: QuickSort dual pivot with statPack: StatPack {interiminversions: <unset>; copies: 0; inversions: mean=249,304; stdDev=5,846; swaps: mean=4,558; stdDev=341; fixes: mean=279,924; stdDev=31,655; compares: mean=11,053; stdDev=675}
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, introsort) = false
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, introhuskysort) = false
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, quickhuskysort) = false
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, quickuskyinsertionsort) = false
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, introhuskyinsertionsort) = false
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, huskybucketsort) = false
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, huskybucketintrosort) = false
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, insertionsort) = false
+2021-12-03 16:13:16 INFO  HuskySortBenchmarkHelper - getWords: testing with 22,915 unique words: from D:\git\INFO6205-Final-Project\INFO6205\target\classes\eng-uk_web_2002_10K-sentences.txt
+2021-12-03 16:13:16 INFO  HuskySortBenchmark - benchmarkStringSorters: testing pure sorts with 100 runs of sorting 1,000 words using coder: Unicode
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, presorted) = false
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, puresystemsort) = false
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, purehuskysort) = false
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, mergehuskysort) = false
+2021-12-03 16:13:16 DEBUG Config - Config.get(benchmarkstringsorters, puremergesort) = false
+2021-12-03 16:13:16 INFO  HuskySortBenchmark - sortLocalDateTimes: beginning LocalDateTime sorts
+2021-12-03 16:13:16 INFO  Benchmark - Begin run: Sort  (500 LocalDateTimes using Arrays::sort (TimSort) with 265 runs
+2021-12-03 16:13:16 INFO  HuskySortBenchmark - .11 ms
+2021-12-03 16:13:16 INFO  Benchmark - Begin run: Repeat Sort  (500 LocalDateTimes using timSort::mutatingSort with 265 runs
+2021-12-03 16:13:16 INFO  HuskySortBenchmark - .05 ms
+2021-12-03 16:13:16 INFO  SorterBenchmark - run: sort 500 elements using SorterBenchmark on class java.time.LocalDateTime from 500 total elements and 265 runs using sorter: Timsort
+2021-12-03 16:13:16 INFO  Benchmark - Begin run: Helper for Timsort with 0 elements with 265 runs
+2021-12-03 16:13:16 INFO  TimeLogger - Raw time per run (mSec):  .05
+2021-12-03 16:13:16 INFO  TimeLogger - Normalized time per run (n log n):  2.37
+2021-12-03 16:13:16 DEBUG InstrumentedHelper - Closing Helper: test with statPack: null
+2021-12-03 16:13:16 INFO  BucketSort - 5
+2021-12-03 16:13:16 INFO  BucketSort - Helper for Insertion sort with 0 elements
+2021-12-03 16:13:16 INFO  BucketSort - 0
+2021-12-03 16:13:17 INFO  BucketSort - 24948882
+2021-12-03 16:13:17 INFO  BucketSort - Helper for Insertion sort with 0 elements
+2021-12-03 16:13:17 INFO  BucketSort - 0
+2021-12-03 16:13:17 INFO  SorterBenchmark - run: sort 400 elements using SorterBenchmark on class java.lang.String from 400 total elements and 1 runs using sorter: test
+2021-12-03 16:13:17 INFO  Benchmark - Begin run: Instrumenting helper for test with 400 elements with 1 runs
+2021-12-03 16:13:17 INFO  TimeLogger - Raw time per run (mSec):  1.80
+2021-12-03 16:13:17 INFO  TimeLogger - Normalized time per run (n log n):  103.76
+2021-12-03 16:13:17 INFO  SorterBenchmark - run: sort 400 elements using SorterBenchmark on class java.lang.String from 400 total elements and 1 runs using sorter: test
+2021-12-03 16:13:17 INFO  Benchmark - Begin run: Instrumenting helper for test with 400 elements with 1 runs
+2021-12-03 16:13:17 INFO  TimeLogger - Raw time per run (mSec):  .60
+2021-12-03 16:13:17 INFO  TimeLogger - Normalized time per run (n log n):  34.83
+2021-12-03 16:13:17 INFO  Benchmark - Begin run: testWaitPeriods with 2 runs
+2021-12-03 16:13:18 DEBUG Config - Config.get(x, x1) = null
+2021-12-03 16:13:18 DEBUG Config - Config.get(x, x2) = null
+2021-12-03 16:13:18 DEBUG Config - Config.get(x, x3) = Hello
+2021-12-03 16:13:18 DEBUG Config - Config.get(x, x4) = Hello
+2021-12-03 16:13:18 DEBUG Config - Config.get(x, x5) = Hello World!
+2021-12-03 16:13:18 DEBUG Config - Config.get(x, x6) = Hello World!
+2021-12-03 16:13:18 DEBUG Config - Config.get(x, x7) = "Hello"
+2021-12-03 16:13:18 DEBUG LazyLoggerTest - Hello debug message
+2021-12-03 16:13:18 INFO  SorterBenchmark - run: sort 4 elements using SorterBenchmark on class java.lang.String from 4 total elements and 100 runs using sorter: Insertion sort
+2021-12-03 16:13:18 INFO  Benchmark - Begin run: Helper for Insertion sort with 0 elements with 100 runs
+2021-12-03 16:13:18 INFO  TimeLogger - test .00
+2021-12-03 16:13:21 INFO  BucketSort - 5
+2021-12-03 16:13:21 INFO  BucketSort - 25212030
+2021-12-03 16:13:21 DEBUG Config - Config.get(helper, seed) = null
+2021-12-03 16:13:21 DEBUG Config - Config.get(helper, instrument) = true
+2021-12-03 16:13:21 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-12-03 16:13:21 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-12-03 16:13:21 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-12-03 16:13:21 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-12-03 16:13:21 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-12-03 16:13:21 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-12-03 16:13:21 DEBUG Config - Config.get(helper, cutoff) = 
+2021-12-03 16:13:21 DEBUG Config - Config.get(mergesort, insurance) = false
+2021-12-03 16:13:21 DEBUG Config - Config.get(mergesort, nocopy) = false
+2021-12-03 16:13:21 DEBUG InstrumentedHelper - Closing Helper: test with statPack: null
+2021-12-03 16:13:21 INFO  Benchmark_Timer - Begin run: testWaitPeriods with 2 runs
+2021-12-03 16:13:23 DEBUG Config - Config.get(helper, junk) = null
+2021-12-03 16:13:23 DEBUG Config - Config.get(main, version) = null
+2021-12-03 16:13:23 DEBUG LazyLoggerTest - Hello debug message
+2021-12-03 16:13:23 INFO  SorterBenchmark - run: sort 4 elements using SorterBenchmark on class java.lang.String from 4 total elements and 100 runs using sorter: Insertion sort
+2021-12-03 16:13:23 INFO  Benchmark_Timer - Begin run: Helper for Insertion sort with 0 elements with 100 runs
+2021-12-03 16:13:23 INFO  TimeLogger - test .00
+2021-12-04 04:07:54 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:07:56 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 04:08:26 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:09:24 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:11:24 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:15:36 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:25:19 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:25:21 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 04:25:26 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:25:37 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:25:58 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:26:46 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:29:43 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 04:29:45 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 04:30:02 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 04:30:35 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 04:31:44 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 04:34:30 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 04:44:25 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:44:50 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:45:29 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:46:53 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 04:50:59 INFO  Benchmark_Timer - Begin run: result with 1 runs
+2021-12-04 05:09:13 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:09:14 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 05:09:29 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:10:01 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:11:08 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:13:47 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:20:15 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:20:17 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 05:20:33 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:21:06 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:22:17 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:25:00 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:32:53 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:32:55 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 05:33:12 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:33:46 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:34:10 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:34:12 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 05:34:29 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:35:02 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:36:10 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:38:52 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:48:47 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:48:49 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 05:49:06 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:49:39 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:50:51 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:53:41 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:56:09 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:56:28 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:57:05 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 05:58:24 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:01:37 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:11:03 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:11:05 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 06:11:22 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:11:55 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:13:04 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:15:55 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:25:43 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:25:45 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 06:25:52 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:26:03 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:26:18 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:26:44 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:27:01 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:27:28 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:27:50 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:28:39 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:30:39 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:36:24 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 06:58:47 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 07:00:20 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 07:03:07 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 07:08:47 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 07:21:37 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:14:18 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:14:20 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 13:14:33 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:14:59 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:15:56 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:18:15 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:31:26 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:31:27 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 13:31:42 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:32:10 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:33:05 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:35:19 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:45:04 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 13:45:18 DEBUG Config - Config.get(helper, instrument) = false
+2021-12-04 13:46:16 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:46:30 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:47:01 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:47:58 INFO  Benchmark_Timer - Begin run: result with 10 runs
+2021-12-04 13:50:13 INFO  Benchmark_Timer - Begin run: result with 10 runs
