@@ -1,12 +1,17 @@
 # INFO6205-Final-Project
-## 0. Converting Chinese to Pinyin
+## 0. paper and report
+### paper:
+INFO6205-Final-Project/paper/Literature Survey on Radix Sort.pdf
+### report:
+INFO6205-Final-Project/report/Final Report.pdf
+## 1. Converting Chinese to Pinyin
 ### convertion class:
 INFO6205/src/main/java/edu/neu/coe/info6205/finalProject/convertToPinyin.java
 ### read file class:
 INFO6205/src/main/java/edu/neu/coe/info6205/finalProject/readFile.java
 ### write file class:
 INFO6205/src/main/java/edu/neu/coe/info6205/finalProject/WriteFile.java
-## 1. MSD radix sort
+## 2. MSD radix sort
 ### algorithm:
 INFO6205/src/main/java/edu/neu/coe/info6205/sort/counting/MSDStringSort.java
 ### unit test:
@@ -15,7 +20,7 @@ INFO6205/src/test/java/edu/neu/coe/info6205/sort/counting/MSDStringSortTest.java
 INFO6205/src/main/java/edu/neu/coe/info6205/finalProject/MSDOutput.java
 ### benchmark result:
 INFO6205/src/main/java/edu/neu/coe/info6205/finalProject/MSDResult.java
-## 2. LSD radix sort
+## 3. LSD radix sort
 ### algorithm:
 INFO6205/src/main/java/edu/neu/coe/info6205/sort/counting/LSDStringSort.java
 ### unit test:
@@ -24,7 +29,7 @@ INFO6205/src/test/java/edu/neu/coe/info6205/sort/counting/LSDStringSortTestRunne
 INFO6205/src/main/java/edu/neu/coe/info6205/finalProject/LSDOutput.java
 ### benchmark result:
 INFO6205/src/main/java/edu/neu/coe/info6205/finalProject/LSDResult.java
-## 3. Tim sort
+## 4. Tim sort
 ### algorithm:
 INFO6205/src/main/java/edu/neu/coe/info6205/sort/linearithmic/TimSort.java
 ### unit test:
@@ -33,7 +38,7 @@ INFO6205/src/test/java/edu/neu/coe/info6205/sort/linearithmic/TimSortTest.java
 INFO6205/src/main/java/edu/neu/coe/info6205/finalProject/TimSortOutput.java
 ### benchmark result:
 INFO6205/src/main/java/edu/neu/coe/info6205/finalProject/TimResult.java
-## 4. Dual-Pivot quick sort
+## 5. Dual-Pivot quick sort
 ### algorithm:
 INFO6205/src/main/java/edu/neu/coe/info6205/sort/linearithmic/QuickSort_DualPivot.java
 ### unit test:
@@ -42,7 +47,7 @@ INFO6205/src/test/java/edu/neu/coe/info6205/sort/linearithmic/QuickSortDualPivot
 INFO6205/src/main/java/edu/neu/coe/info6205/finalProject/QuickSort_DualPivotOutput.java
 ### benchmark result:
 INFO6205/src/main/java/edu/neu/coe/info6205/finalProject/QuickSort_DualPivotResult.java
-## 5. Husky sort
+## 6. Husky sort
 ### algorithm:
 INFO6205/src/main/java/edu/neu/coe/info6205/huskySort/sort/huskySort/PureHuskySort.java
 ### unit test:
