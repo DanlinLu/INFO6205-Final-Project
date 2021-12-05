@@ -6,8 +6,10 @@ INFO6205-Final-Project/paper/Literature Survey on Radix Sort.pdf
 INFO6205-Final-Project/report/Final Report.pdf
 ### results:
 #### 1. MSD:
-1000 Chinese: INFO6205-Final-Project/INFO6205/SortedResultOfMSD-1000.txt
-1M Chinese: INFO6205-Final-Project/INFO6205/SortedResultOfMSD.txt
+1000 Chinese:
+INFO6205-Final-Project/INFO6205/SortedResultOfMSD-1000.txt
+1M Chinese:
+INFO6205-Final-Project/INFO6205/SortedResultOfMSD.txt
 #### 2. LSD:
 1000 Chinese: INFO6205-Final-Project/INFO6205/SortedResultOfLSD-1000.txt
 1M Chinese: INFO6205-Final-Project/INFO6205/SortedResultOfLSD.txt
